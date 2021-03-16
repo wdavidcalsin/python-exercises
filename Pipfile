@@ -4,7 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "==2.1.2"
+django = "==2.2"
+nltk = "*"
+numpy = "*"
+beautifulsoup4 = "*"
+html5lib = "*"
+matplotlib = "*"
 
 [dev-packages]
 colorama = "*"
